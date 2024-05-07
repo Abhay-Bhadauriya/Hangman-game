@@ -27,16 +27,3 @@ To run the Hangman game locally, follow these steps:
 ## Contributing
 
 Contributions to the Hangman game project are welcome! Whether you'd like to report a bug, suggest a new feature, or contribute code improvements, please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code for personal or commercial purposes. See the [LICENSE](LICENSE) file for more details.
-
-## Acknowledgments
-
-- Special thanks to the Flask and Python communities for providing excellent documentation and resources.
-- ASCII art for the Hangman figure sourced from [ASCII Art Archive](https://www.asciiart.eu/).
-
----
-
-Feel free to customize this README file to better suit your project's specific details and requirements. Good luck with your Hangman game project on GitHub! 
