@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman Home</title>
+        <style>
+            body {
+                filter: blur(45%);
+                background: linear-gradient(to right, #ff9933, #ffffff, #138808); /* Gradient background with Indian flag colors */
+                color: #000; /* Text color */
+                font-family: Arial, sans-serif; /* Font family */
+                text-align: center; /* Center-align text */
+                padding-top: 50px; /* Add some padding at the top */
+            }
+        </style>
+    </head>
+<body>
+
+<h1>Game</h1>
+<img src={{tries}}>
+
+<div>
+{% for i in to_display %}
+    <span> {{i}} </span>
+{% endfor %}
+</div>
+
+<form action="{{ url_for('add_char') }}" method=post>
+ <div>
+ <label>Enter a letter:</label>
+ <div>
+      <input type="text" maxlength="1" name="letter">
+ </div>
+ </div>
+ <p><button type="submit">Submit</button></p>
+</form>
+<div>
+ {% for i in word_set %}
+    <span>{{i}}</span>
+ {% endfor %}
+</div>
+
+</body>
+</html> 

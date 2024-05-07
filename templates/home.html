@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman Home</title>
+    <style>
+        body {
+            filter: blur(45%);
+            background: linear-gradient(to right, #ff9933, #ffffff, #138808); /* Gradient background with Indian flag colors */
+            color: #000; /* Text color */
+            font-family: Arial, sans-serif; /* Font family */
+            text-align: center; /* Center-align text */
+            padding-top: 50px; /* Add some padding at the top */
+        }
+        
+        h1 {
+            font-size: 36px; /* Larger font size */
+            padding-top: 200px;
+        }
+
+        p {
+            font-size: 24px; /* Larger font size */
+        }
+
+        button {
+            background-color: #138808; /* Green button background */
+            color: #fff; /* Button text color */
+            border: none; /* Remove button border */
+            padding: 10px 20px; /* Add padding to button */
+            font-size: 18px; /* Button font size */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            margin-top: 20px; /* Add some margin at the top */
+        }
+
+        button:hover {
+            background-color: #319ea6; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Hangman Home</h1>
+<button onclick="window.location.href='/game'">Start Game</button>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman - Game Won</title>
+    <style>
+        body {
+            background-color: #5cb85c; /* Green background */
+            color: #fff; /* White text */
+            font-family: Arial, sans-serif; /* Font family */
+            text-align: center; /* Center-align text */
+            padding-top: 50px; /* Add some padding at the top */
+        }
+        
+        h1 {
+            font-size: 36px; /* Larger font size */
+        }
+
+        p {
+            font-size: 24px; /* Larger font size */
+        }
+        .again{
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Congratulations! You Won!</h1>
+<p>You guessed the word correctly. &#128513;</p>
+<button class="again" onclick="window.location.href='/game'">Play Again</button>
+<div class="footer">
+    Made By Abhay Singh (1DA21CS004)
+</div>
+
+</body>
+</html>
